@@ -44,7 +44,7 @@ blocks:
     bus_structure: null
     coordinate: [216, 780.0]
     rotation: 0
-    state: true
+    state: enabled
 - name: integration_seconds
   id: variable
   parameters:
@@ -109,7 +109,7 @@ blocks:
     bus_structure: null
     coordinate: [216, 636.0]
     rotation: 0
-    state: true
+    state: enabled
 - name: nfft
   id: variable
   parameters:
@@ -504,7 +504,7 @@ blocks:
     bus_structure: null
     coordinate: [208, 532.0]
     rotation: 0
-    state: true
+    state: enabled
 - name: import_0
   id: import
   parameters:
@@ -679,7 +679,7 @@ blocks:
     bus_structure: null
     coordinate: [560, 452.0]
     rotation: 0
-    state: true
+    state: enabled
 - name: qtgui_vector_sink_f_0
   id: qtgui_vector_sink_f
   parameters:
@@ -751,7 +751,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1392, 468.0]
+    coordinate: [1408, 476.0]
     rotation: 0
     state: enabled
 - name: qtgui_vector_sink_f_0_0
@@ -853,7 +853,7 @@ blocks:
     bus_structure: null
     coordinate: [568, 596.0]
     rotation: 0
-    state: true
+    state: enabled
 - name: virtual_source_0
   id: virtual_source
   parameters:

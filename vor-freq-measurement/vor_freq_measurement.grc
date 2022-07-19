@@ -626,7 +626,7 @@ blocks:
     marker9: '-1'
     name: PLL
     nconnections: '2'
-    size: '1000'
+    size: '2000'
     srate: samp_rate/(decimation * decimation2)
     stemplot: 'False'
     style1: '1'
@@ -820,8 +820,8 @@ blocks:
     marker9: '-1'
     name: Carrier phase
     nconnections: '1'
-    size: '1000'
-    srate: samp_rate
+    size: '2000'
+    srate: samp_rate/(decimation * decimation2)
     stemplot: 'False'
     style1: '1'
     style10: '1'
