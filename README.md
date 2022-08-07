@@ -24,6 +24,12 @@ The material is organized in the following folders:
   fringe rotation and fring stopping. There is also a demo with the Allen
   Telescope Array using the same kind of correlator.
 
+* `polyphase` shows how to implement a polyphase filterbank and write GUPPI raw
+  files using [gr-guppi](https://github.com/daniestevez/gr-guppi). It also shows
+  how to generate a CW signal that drifts in frequency. This can signal then be
+  detected with [turbo_seti](https://github.com/UCBerkeleySETI/turbo_seti) if the
+  GUPPI raw file is processed with [rawspec](https://github.com/UCBerkeleySETI/rawspec).
+
 * `python-blocks` shows how to program Embedded Python Blocks. A signal
   detection block is implemented as an example. This detects signals on the
   spectrum by using a median to estimate the noise floor. Messages are used to
